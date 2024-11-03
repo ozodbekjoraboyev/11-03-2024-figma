@@ -1,0 +1,535 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  background-color: #e1e0e0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.container .begraund {
+  background-image: url(/img/IMAGE.png);
+  padding: 20px 20px;
+  background-size: cover;
+}
+.container .begraund nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .begraund nav .nav_a {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.container .begraund nav .nav_a a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+}
+.container .begraund nav .nav_a a:hover {
+  color: blue;
+  transition-duration: 1s;
+}
+.container .begraund nav button {
+  background-color: rgb(113, 64, 235);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+}
+.container .begraund nav button:hover {
+  background-color: blueviolet;
+  color: #000;
+  transition-duration: 1s;
+}
+.container .begraund nav button:active {
+  background-color: chartreuse;
+}
+.container .begraund .mein {
+  text-align: center;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+.container .begraund .mein .mein_h1 {
+  padding: 20px;
+}
+.container .begraund .mein .mein_h1 h1 {
+  font-size: 80px;
+  color: #fff;
+}
+.container .begraund .mein .mein_h1 h1:hover {
+  color: blue;
+  transition-duration: 0.5s;
+}
+.container .begraund .mein .mein_p {
+  color: #fff;
+  padding: 20px;
+}
+.container .begraund .mein .mein_p:hover {
+  color: rgb(255, 0, 0);
+  transition-duration: 0.5s;
+}
+.container .begraund .mein .mein_p p {
+  font-size: 20px;
+}
+.container .begraund .mein button {
+  background-color: rgb(113, 64, 235);
+  border: none;
+  padding: 10px 50px;
+  border-radius: 20px;
+  margin-bottom: 70px;
+  color: #fff;
+}
+.container .begraund .mein button:hover {
+  background-color: blueviolet;
+  color: #000;
+  transition-duration: 1s;
+}
+.container .begraund .mein button:active {
+  background-color: chartreuse;
+}
+.container .h2 {
+  font-size: 40px;
+  padding: 50px;
+  font-weight: 300;
+  background-color: rgb(241, 241, 241);
+}
+.container .h2:hover {
+  color: blue;
+  transition-duration: 0.5s;
+}
+.container .main {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(241, 241, 241);
+  align-items: center;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+.container .main .main_h2 {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+  padding: 20px;
+}
+.container .main .main_h2 h3 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.container .main .main_h2 h3:hover {
+  color: blue;
+  transition-duration: 0.5s;
+}
+.container .card h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.container .card h2:hover {
+  color: blue;
+  transition-duration: 0.5s;
+}
+.container .card p {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 30px 0px;
+}
+.container .card p:hover {
+  color: rgb(255, 0, 0);
+  transition-duration: 0.5s;
+}
+.container .cart {
+  display: flex;
+  justify-content: space-around;
+}
+.container .cart .card_2 {
+  background-color: rgb(173, 183, 192);
+  border-radius: 20px;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+.container .cart .card_2 h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.container .cart .card_2 h2:hover {
+  color: blue;
+  transition-duration: 0.5s;
+}
+.container .cart .card_2 button {
+  border: none;
+  padding: 3px 8px;
+  border-radius: 20px;
+  color: blue;
+}
+.container .cart .card_2 button:hover {
+  background-color: blueviolet;
+  color: #000;
+  transition-duration: 1s;
+}
+.container .cart .card_2 button:active {
+  background-color: chartreuse;
+}
+.container .cart .card_2 .btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 200px;
+  height: 40px;
+}
+.container .beg {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-top: 50px;
+}
+.container .beg .beich {
+  width: 400px;
+}
+.container .beg .beich h2 {
+  font-size: 40px;
+  font-weight: 300;
+  width: 250px;
+  color: #000;
+}
+.container .beg .beich h2:hover {
+  color: blue;
+  transition-duration: 0.5s;
+}
+.container .beg .beich p {
+  width: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container .beg .beich p:hover {
+  color: rgb(255, 0, 0);
+  transition-duration: 0.5s;
+}
+.container .beg .beich button {
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: blue;
+}
+.container .beg .beich button:hover {
+  background-color: blueviolet;
+  color: #000;
+  transition-duration: 1s;
+}
+.container .beg .beich button:active {
+  background-color: chartreuse;
+}
+.container .beg img {
+  max-width: 900px;
+}
+.container .your {
+  background-image: url(/img/IMAGE\ \(5\).png);
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
+  margin: 0 auto;
+  align-items: center;
+  padding: 50px;
+}
+.container .your .your_2 {
+  align-items: center;
+}
+.container .your .your_2 h2 {
+  font-size: 60px;
+  font-weight: 300;
+  color: #fff;
+}
+.container .your .your_2 h2:hover {
+  color: blue;
+  transition-duration: 0.5s;
+}
+.container .your .your_2 p {
+  font-size: 16px;
+  font-weight: 300;
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #fff;
+}
+.container .your .your_2 p:hover {
+  color: rgb(255, 0, 0);
+  transition-duration: 0.5s;
+}
+.container .your .your_2 button {
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: blue;
+}
+.container .your .your_2 button:hover {
+  background-color: blueviolet;
+  color: #000;
+  transition-duration: 1s;
+}
+.container .your .your_2 button:active {
+  background-color: chartreuse;
+}
+.container .your .your_3 h2 {
+  font-size: 80px;
+  font-weight: 300;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.container .your .your_3 h2:hover {
+  color: blue;
+  transition-duration: 0.5s;
+}
+.container .our {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+}
+.container .our .our_2 h2 {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.container .our .our_2 h2:hover {
+  color: blue;
+  transition-duration: 0.5s;
+}
+.container .our .our_2 p {
+  font-size: 20px;
+  width: 400px;
+}
+.container .our .our_2 p:hover {
+  color: rgb(255, 0, 0);
+  transition-duration: 0.5s;
+}
+.container .our .our_2 .our_3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.container .our .our_2 .our_3 div {
+  border-radius: 20px;
+  padding: 5px;
+}
+.container .our .our_2 .our_3 .our-5 {
+  background-color: rgb(233, 240, 240);
+  color: #000;
+  padding: 5px 30px;
+  width: 300px;
+}
+.container .our .our_2 .our_3 .our-6 {
+  background-color: rgb(233, 240, 240);
+  color: #000;
+  padding: 5px 30px;
+  width: 350px;
+}
+.container .our .our_2 .our_3 .our-7 {
+  background-color: rgb(233, 240, 240);
+  color: #000;
+  padding: 5px 30px;
+  width: 300px;
+}
+.container .our .our_2 .our_3 .our-8 {
+  background-color: rgb(233, 240, 240);
+  color: #000;
+  padding: 5px 30px;
+  width: 250px;
+}
+.container .our .card_2 {
+  background-color: rgb(173, 183, 192);
+  border-radius: 20px;
+  padding: 10px 10px;
+  padding-bottom: 30px;
+}
+.container .our .card_2 h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.container .our .card_2 h2:hover {
+  color: blue;
+  transition-duration: 0.5s;
+}
+.container .our .card_2 button {
+  border: none;
+  padding: 3px 8px;
+  border-radius: 20px;
+  color: blue;
+}
+.container .our .card_2 button:hover {
+  background-color: blueviolet;
+  color: #000;
+  transition-duration: 1s;
+}
+.container .our .card_2 button:active {
+  background-color: chartreuse;
+}
+.container .our .card_2 .btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 200px;
+  height: 40px;
+}
+.container .diclos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+  padding: 30px;
+  background-color: #ebe7e7;
+}
+.container .diclos h2 {
+  font-size: 60px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 300px;
+}
+.container .diclos h2:hover {
+  color: blue;
+  transition-duration: 0.5s;
+}
+.container .diclos button {
+  border-color: #000;
+  color: #000000;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.container .diclos button:hover {
+  background-color: blueviolet;
+  color: #fff;
+  transition-duration: 1s;
+}
+.container .diclos button:active {
+  border-color: chartreuse;
+  background-color: blue;
+}
+.container .diclos .diclos_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .c {
+  font-size: 30px;
+  margin-top: 40px;
+  font-weight: 400;
+}
+.container .c:hover {
+  color: blue;
+  transition-duration: 0.5s;
+}
+.container .aitm {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 150px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 500;
+}
+.container .aitm h3 {
+  font-size: 25px;
+  font-weight: 400;
+  width: 350px;
+  margin: 0 auto;
+}
+.container .aitm h3:hover {
+  color: blue;
+  transition-duration: 0.5s;
+}
+.container .aitm p {
+  padding-top: 20px;
+}
+.container .futr {
+  background-image: url(/img/IMAGE\ \(6\).png);
+  background-size: cover;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  color: #e1e0e0;
+}
+.container .futr div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 50px;
+}
+.container .imj {
+  max-width: 800px;
+}
+
+@media (max-width: 1195px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cart {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .our {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .beg {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .beg .img {
+    max-width: 100%;
+  }
+  .diclos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .aitm {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .futr {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .your_3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  nav a {
+    display: flex;
+    display: none;
+  }
+  .imj {
+    width: 100%;
+  }
+  .main_h2 h3 {
+    font-size: 100%;
+  }
+  img {
+    width: 100%;
+  }
+  .your .your_2 {
+    font-size: 5px;
+    display: none;
+  }
+  .our_2 h2 {
+    justify-content: center;
+  }
+  .our_2 p {
+    display: none;
+  }
+}/*# sourceMappingURL=skrip.css.map */
